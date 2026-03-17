@@ -1,0 +1,18 @@
+.hero{
+height:250px;
+background:linear-gradient(120deg,#111,#444);
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+text-align:center;
+}
+
+.hero h1{
+font-size:38px;
+margin-bottom:10px;
+}
+
+.hero p{
+opacity:.8;
+}

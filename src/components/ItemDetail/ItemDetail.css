@@ -1,0 +1,80 @@
+.detail{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+padding:40px;
+}
+
+.detail-img img{
+width:100%;
+border-radius:10px;
+}
+
+.added-feedback {
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px dashed var(--accent);
+    margin-bottom: 30px;
+    animation: fadeIn 0.4s ease;
+}
+
+.added-msg {
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.post-add-actions {
+    display: flex;
+    gap: 15px;
+}
+
+.go-btn {
+    flex: 1;
+    padding: 12px;
+    text-align: center;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+.go-btn.primary {
+    background: var(--primary);
+    color: white;
+}
+
+.go-btn.secondary {
+    background: white;
+    color: var(--primary);
+    border: 1px solid #ddd;
+}
+
+.go-btn:hover {
+    filter: brightness(1.1);
+    transform: translateY(-2px);
+}
+
+.shipping-info {
+    font-size: 13px;
+    color: #444;
+}
+.detail-info h2{
+margin-bottom:15px;
+}
+
+.detail-info h3{
+color:#00aa55;
+margin:15px 0;
+}
+
+.added{
+color:#00aa55;
+font-weight:bold;
+}

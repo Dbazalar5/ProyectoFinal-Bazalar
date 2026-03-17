@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Outfit:wght@400;600;800&display=swap');
+
+:root {
+  --primary: #000000;
+  --secondary: #333333;
+  --accent: #2ecc71;
+  --bg: #f8f9fa;
+  --card-bg: #ffffff;
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --shadow: 0 10px 30px rgba(0,0,0,0.05);
+  --radius: 12px;
+  --font-main: 'Inter', sans-serif;
+  --font-display: 'Outfit', sans-serif;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: var(--font-main);
+}
+
+body{
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .logo {
+  font-family: var(--font-display);
+}
+
+.container{
+  width:100%;
+  max-width:1400px;
+  margin:auto;
+  padding:20px;
+}
+
+.search-container {
+    max-width: 800px;
+    margin: -40px auto 40px;
+    position: relative;
+    padding: 0 20px;
+    z-index: 10;
+}
+
+.main-search {
+    width: 100%;
+    padding: 22px 60px 22px 35px;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,0.05);
+    background: white;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    font-size: 18px;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.main-search:focus {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 45px rgba(0,0,0,0.15);
+}
+
+.search-icon-bg {
+    position: absolute;
+    right: 45px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+@media(max-width:768px){
+  .navbar{
+    flex-direction:column;
+    gap:10px;
+    padding: 15px;
+  }
+}

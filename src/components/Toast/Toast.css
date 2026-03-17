@@ -1,0 +1,30 @@
+.toast{
+
+position:fixed;
+
+bottom:20px;
+
+right:20px;
+
+background:#111;
+
+color:white;
+
+padding:12px 18px;
+
+border-radius:6px;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+
+z-index:2000;
+
+animation:fadeIn .3s;
+
+}
+
+@keyframes fadeIn{
+
+from{opacity:0;transform:translateY(10px)}
+to{opacity:1}
+
+}
