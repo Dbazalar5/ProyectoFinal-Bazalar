@@ -83,12 +83,13 @@ src/
 El proyecto usa variables de entorno para las credenciales de Firebase. Hay un archivo `.env.example` con los nombres de las variables que se necesitan configurar:
 
 ```
-VITE_API_KEY=tu_api_key
-VITE_AUTH_DOMAIN=tu_auth_domain
-VITE_PROJECT_ID=tu_project_id
-VITE_STORAGE_BUCKET=tu_storage_bucket
-VITE_MESSAGING_SENDER_ID=tu_messaging_sender_id
-VITE_APP_ID=tu_app_id
+VITE_API_KEY=AIzaSyAc4QWELn9NELmz8YBsJL5pjR_50r2NlNs
+VITE_AUTH_DOMAIN=products-34800.firebaseapp.com
+VITE_PROJECT_ID=products-34800
+VITE_STORAGE_BUCKET=products-34800.firebasestorage.app
+VITE_MESSAGING_SENDER_ID=752748368195
+VITE_APP_ID=1:752748368195:web:60a76c01c3a8849d8d5ff6
+
 ```
 
 Copiar `.env.example` como `.env` y completar con los valores correspondientes.
